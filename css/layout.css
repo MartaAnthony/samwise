@@ -2,3 +2,29 @@
   display: flex;
   border: 1px solid green;
 }
+
+nav {
+  display: none;
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; 
+  }
+
+  li {
+    border: 1px solid lightslategray;
+    padding: 10px;
+    margin: auto 40px auto 40px;
+    
+  }
+}
