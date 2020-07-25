@@ -3,12 +3,16 @@
   border: 1px solid green;
 }
 
-nav {
+#main-nav {
   display: none;
   font-size: 20px;
 }
 
+
 @media only screen and (min-width: 768px) {
+  #main-nav {
+    display: inline;
+  }
   nav {
     display: flex;
     justify-content: space-evenly;
@@ -19,12 +23,13 @@ nav {
     display: flex;
     flex-direction: row;
     list-style-type: none; 
+    justify-content: center;
   }
 
   li {
     border: 1px solid lightslategray;
     padding: 10px;
     margin: auto 40px auto 40px;
-    
+    font-size: 20px; 
   }
 }
