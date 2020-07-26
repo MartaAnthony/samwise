@@ -2,9 +2,11 @@ h1 {
   font-family: 'Bilbo', cursive;
   font-size: 52px;
   text-align: center;
-  border: 1px solid pink;
 }
-
+ li {
+   text-transform: uppercase;
+   }
+ 
 /* burger menu */
 .menu-btn {
   position: relative;
@@ -15,7 +17,6 @@ h1 {
   height: 60px;
   cursor: pointer;
   transition: all .5s ease-in-out;
-  border: 1px solid salmon;
   margin: auto;
   margin-left: 30px;
 }
@@ -23,7 +24,7 @@ h1 {
 .menu-btn_burger {
   width: 45px;
   height: 3px;
-  background: black;
+  background-color: rgb(4, 148, 173);
   border-radius: 4px;
   transition: all .5s ease-in-out;
 }
@@ -34,7 +35,7 @@ h1 {
   position: absolute;
   width: 45px;
   height: 3px;
-  background: black;
+  background:rgb(4, 148, 173);
   border-radius: 5px;
   transition: all .5s ease-in-out;
 }
@@ -75,25 +76,67 @@ h1 {
   flex-direction: column;
   margin: auto;
   padding: 30px;
-  border-bottom: 1px solid rgb(211, 210, 210);
+  border-bottom: 1px solid rgb(231, 231, 231);
 }
 
 #modal.open #main-nav {
   display: inline;
   margin: auto;
   text-align: center;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .logo {
   margin: auto auto auto -10px;
 }
 
+/* intro */
+
 #intro {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+#image-intro {
+  background-image: url("../palmy.jpg");
+  height: 300px;
+}
+
+/* footer */
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer li{
+  flex-direction: row;
+  list-style: none;
+  margin-right: 50px;
+  font-size: 16px;
+}
+
+.divider {
+  color: rgb(4, 148, 173);
+}
+
+footer h2 {
+  display: none;
+}
+
+footer p {
+  color: grey;
+}
+
+.fab {
+  color: rgb(4, 148, 173);
+  font-size: 30px;
+}
+
+footer section {
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 1200px) {
   .menu-btn {
     display: none;
   }
@@ -103,7 +146,6 @@ h1 {
   }
 
   #modal.open li {
-    border: 1px solid lightslategray;
     padding: 10px;
     margin: auto 40px auto 40px;
     font-size: 20px; 
@@ -120,7 +162,50 @@ h1 {
     margin: auto;
   }
 
+  #image-intro {
+    position: relative;
+    z-index: 1;
+  }
+
   #intro {
     display: inline-block;
-  }
+    position: absolute;
+    z-index: 2;
+    color: white;
+    padding: 20px;
 } 
+#intro h2 {
+  font-size: 28px;
+}
+
+#intro p {
+  font-size: 22px;
+}
+
+footer section {
+  position: relative;
+  z-index: 2;
+}
+
+footer li {
+  padding: 0px;
+}
+
+footer h2 {
+  display: inline;
+  color: rgb(4, 148, 173);
+  font-family: 'Bilbo', cursive;
+  font-size: 42px;
+  position: absolute;
+  z-index: 1;
+  bottom: -10px;
+  left: 0px;
+  padding-left: 20px;
+  opacity: 0.7;
+}
+
+footer nav {
+  padding: 10px;
+}
+}
+

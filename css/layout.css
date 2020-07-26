@@ -1,11 +1,16 @@
 #top-menu {
   display: flex;
-  border: 1px solid green;
 }
 
 #main-nav {
   display: none;
   font-size: 20px;
+}
+
+footer {
+  background-color: rgb(231, 231, 231);
+  padding: 20px;
+  flex-shrink: 0;
 }
 
 
@@ -27,7 +32,6 @@
   }
 
   li {
-    border: 1px solid lightslategray;
     padding: 10px;
     margin: auto 40px auto 40px;
     font-size: 20px; 
