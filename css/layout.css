@@ -13,6 +13,10 @@ footer {
   flex-shrink: 0;
 }
 
+#blog {
+  text-align: center;
+}
+
 
 @media only screen and (min-width: 768px) {
   #main-nav {
@@ -36,4 +40,9 @@ footer {
     margin: auto 40px auto 40px;
     font-size: 20px; 
   }
+
+  #blog {
+    display: flex;
+  }
+
 }
