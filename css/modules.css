@@ -6,6 +6,11 @@ h1 {
  li {
    text-transform: uppercase;
    }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
  
 /* burger menu */
 .menu-btn {
@@ -97,7 +102,7 @@ h1 {
 }
 
 #image-intro {
-  background-image: url("../palmy.jpg");
+  background-image: url("../images/palmy.jpg");
   height: 300px;
 }
 
@@ -134,6 +139,25 @@ footer p {
 footer section {
   text-align: center;
 }
+
+/* posts */
+
+img {
+ width: 500px;
+ 
+}
+
+.post-header {
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+}
+
+#posts {
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+}
+
 
 
 @media only screen and (min-width: 1200px) {
