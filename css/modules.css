@@ -158,6 +158,43 @@ img {
   margin-top: 60px;
 }
 
+/* Contact page */
+
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 28px;
+  padding: 50px 0px 10px 0px;
+}
+
+ #emails {
+   text-align: center;
+   margin-bottom: 50px;
+ }
+
+ #emails h3 {
+   font-size: 24px ;
+ }
+
+ #emails p {
+   color: grey;
+ }
+
+ .email {
+   padding: 30px;
+ }
+
+ #how-to-email {
+   margin: 40px 30px 50px 30px;
+   font-size: 18px;
+ }
+
+ hr {
+   width: 80%;
+   border-top: 1px solid rgb(4, 148, 173);
+ }
 
 
 @media only screen and (min-width: 1200px) {
