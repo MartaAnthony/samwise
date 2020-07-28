@@ -164,6 +164,10 @@ img {
   text-align: center;
 }
 
+.contact img {
+  padding-top: 50px;
+}
+
 .contact h2 {
   font-size: 28px;
   padding: 50px 0px 10px 0px;
@@ -268,5 +272,10 @@ footer h2 {
 footer nav {
   padding: 10px;
 }
+
+/* contact page */
+ #how-to-email {
+   margin: 40px 140px 50px 140px;
+   font-size: 18px;
 }
 
