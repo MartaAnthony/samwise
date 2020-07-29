@@ -1,4 +1,4 @@
-h1 {
+.logo-text {
   font-family: 'Bilbo', cursive;
   font-size: 52px;
   text-align: center;
@@ -169,6 +169,7 @@ img {
 }
 
 .contact h2 {
+  color:  rgb(4, 148, 173);
   font-size: 28px;
   padding: 50px 0px 10px 0px;
 }
@@ -198,6 +199,24 @@ img {
  hr {
    width: 80%;
    border-top: 1px solid rgb(4, 148, 173);
+   margin-top: 40px;
+ }
+
+ /* meet sam page */
+
+ .about {
+   text-align: center;
+   margin: 20px;
+   margin-bottom: 50px;
+ }
+
+ .about h4 {
+   font-size: 28px;
+   color:  rgb(4, 148, 173);
+ }
+
+ .about p {
+   font-size: 22px;
  }
 
 
